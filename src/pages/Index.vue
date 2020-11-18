@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="home-page">
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <div class="row row-hero">
       <div class="container-hero wrapper">
@@ -57,8 +57,8 @@
           <h2 class="mg-btm-32">
             Join us as we promote positive social change across Africa and Asia
           </h2>
-          <div id="jotform-script" class="text-row">
-            <script2 src="https://form.jotform.com/jsform/202654195519056"></script2>
+          <div class="text-row">
+             <a href="javascript:void( window.open( 'https://form.jotform.com/202654195519056', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> Subscribe With Us </a>
           </div>
         </div>
       </div>
@@ -67,9 +67,9 @@
     <footer class="row row-footer">
       <div class="container-footer wrapper">
         <a class="navbar-brand" href="/"
-          ><img
+          ><g-image
             loading="auto"
-            src="imgs/logos/projectrere-logo-white.svg"
+            src="~/assets/imgs/logos/projectrere-logo-white.svg"
             alt=""
         /></a>
         <a
@@ -89,19 +89,10 @@
 
 <script>
 export default {
-  data() {
-    return {
-    jotForm: {
-      src: "https://form.jotform.com/jsform/202654195519056"
-    }
-    };
-  },
   metaInfo: {
     title: "Project Rere | Home",
   },
-  mounted() {
-    this.jotForm.src = "https://form.jotform.com/jsform/202654195519056";
-  },
+  mounted() {},
 };
 </script>
 
