@@ -26,5 +26,6 @@ export default function(Vue, { router, head, isClient }) {
     body: true,
   });
 
+  // Vue.use(VS2);
   Vue.component("Layout", DefaultLayout);
 }
