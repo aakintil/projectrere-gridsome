@@ -16,6 +16,9 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 760px) {
+  .container-hero {
+    min-height: 700px;
+  }
   .card-header .btn {
     width: 100%;
   }
@@ -54,9 +57,8 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .home-page .container-hero {
-    /* background-position: -530px -310px;
-      background-size: 200%; */
+  .container-hero {
+    min-height: 900px;
   }
 
   .row > .wrapper {
@@ -127,8 +129,11 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .about-banner {
+    top: -30%;
+  }
   .apply-banner {
-    top: -125%; 
+    top: -95%;
   }
   .row > .wrapper {
     padding: 120px 192px;
@@ -176,6 +181,10 @@
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1800px) {
+  .container-hero {
+    min-height: 1000px;
+  }
+
   h1 {
     font-size: 70px;
     line-height: 80px;

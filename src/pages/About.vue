@@ -14,6 +14,11 @@
           </p>
         </div>
         <div class="overlay"></div>
+        <g-image
+          class="about-banner banner"
+          blur="40"
+          src="~/assets/imgs/about-banner.jpg"
+        ></g-image>
       </div>
     </div>
 
