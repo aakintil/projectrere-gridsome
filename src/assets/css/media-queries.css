@@ -1,201 +1,208 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .row > .wrapper {
-      padding: 40px 70px;
-    }
+  .row > .wrapper {
+    padding: 40px 70px;
   }
-  
-  @media (max-width: 576px) {
-    .navbar-nav {
-      height: 160px;
-    }
+  .banner {
+    left: -25%;
   }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 760px) {
-    .card-header .btn {
-      width: 100%; 
-    }
-    .row > .wrapper {
-      padding: 100px 100px;
-    }
-  
-    .home-page .container-hero {
-      background-position: -880px -310px;
-    }
-  
-    .container-hero .layered {
-      text-align: left;
-      align-items: flex-start;
-    }
-  
-    .row-content {
-      padding: 0 40px;
-    }
-  
-    .container-content {
-      margin-top: -100px;
-      border-radius: 4px;
-      z-index: 10;
-      padding: 50px 50px !important;
-    }
-  
-    .container-footer {
-      height: 500px;
-    }
-  
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    .home-page .container-hero {
-      background-position: -530px -310px;
-      background-size: 200%;
-    }
-  
-    .row > .wrapper {
-      padding: 120px 160px;
-    }
-  
-    .container-content {
-      margin-top: -70px;
-      padding: 80px 120px !important;
-    }
-  
-    .row-content {
-      padding: 0 120px;
-    }
-  
-    h1 {
-      font-size: 48px;
-      line-height: 60px;
-    }
-  
-    #pills-tabContent p,
-    #pills-tabContent ol li,
-    p {
-      font-size: 24px;
-      line-height: 32px;
-    }
-  
-    #pills-tabContent p,
-    #pills-tabContent ol li {
-      font-weight: 300;
-      letter-spacing: -1px;
-    }
-  
-    h2 {
-      font-size: 32px;
-      line-height: 48px;
-    }
-  
-    .caption {
-      font-size: 16px;
-      line-height: 20px;
-    }
-  
-    .content-card p {
-      width: 360px;
-    }
-  
-    #pills-tab li {
-      min-width: 124px;
-    }
-    .navbar-expand-lg .navbar-collapse {
-      justify-content: flex-end;
-    }
-  
-    .navbar-nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .nav-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 40px;
-    }
-  }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    .row > .wrapper {
-      padding: 120px 192px;
-    }
-  
-    .container-content {
-      margin-top: -70px;
-      padding: 80px 192px !important;
-    }
+}
 
-  
-    .row-content {
-      padding: 0 160px;
-    }
+@media (max-width: 576px) {
+  .navbar-nav {
+    height: 160px;
   }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1500px) {
-    .home-page .container-hero {
-      background-position: center !important;
-      background-size: cover !important;
-    }
-  
-    .row > .wrapper {
-      padding: 120px 322px;
-    }
-  
-    .container-content {
-      margin-top: -70px;
-      padding: 80px 200px !important;
-    }
-    .row-content {
-      padding: 0 220px;
-    }
-  
-    .the-team {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-      flex-direction: row;
-    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 760px) {
+  .card-header .btn {
+    width: 100%;
   }
-  
-  @media (min-width: 1600px) {
+  .row > .wrapper {
+    padding: 100px 100px;
   }
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1800px) {
-    h1 {
-      font-size: 70px;
-      line-height: 80px;
-      font-weight: 400;
-    }
-    p {
-      font-size: 32px;
-      line-height: 44px;
-      font-weight: 300;
-    }
-  
-    h2 {
-      font-size: 40px;
-      line-height: 56px;
-      font-weight: 400;
-      letter-spacing: -1.4px;
-    }
-  
-    .caption {
-      font-size: 16px;
-      line-height: 20px;
-    }
-  
-    .container-content {
-      margin-top: -120px;
-    }
-    .team-section-titles {
-      width: 240px; 
-    }
+
+  .banner {
+    left: 0;
   }
-  
+
+  .home-page .container-hero {
+    /* background-position: -880px -310px; */
+  }
+
+  .container-hero .layered {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .row-content {
+    padding: 0 40px;
+  }
+
+  .container-content {
+    margin-top: -100px;
+    border-radius: 4px;
+    z-index: 10;
+    padding: 50px 50px !important;
+  }
+
+  .container-footer {
+    height: 500px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home-page .container-hero {
+    /* background-position: -530px -310px;
+      background-size: 200%; */
+  }
+
+  .row > .wrapper {
+    padding: 120px 160px;
+  }
+
+  .container-content {
+    margin-top: -70px;
+    padding: 80px 120px !important;
+  }
+
+  .row-content {
+    padding: 0 120px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  #pills-tabContent p,
+  #pills-tabContent ol li,
+  p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #pills-tabContent p,
+  #pills-tabContent ol li {
+    font-weight: 300;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .caption {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .content-card p {
+    width: 360px;
+  }
+
+  #pills-tab li {
+    min-width: 124px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .apply-banner {
+    top: -125%; 
+  }
+  .row > .wrapper {
+    padding: 120px 192px;
+  }
+
+  .container-content {
+    margin-top: -70px;
+    padding: 80px 192px !important;
+  }
+
+  .row-content {
+    padding: 0 160px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+  .home-page .container-hero {
+    /* background-position: center !important;
+      background-size: cover !important; */
+  }
+
+  .row > .wrapper {
+    padding: 120px 322px;
+  }
+
+  .container-content {
+    margin-top: -70px;
+    padding: 80px 200px !important;
+  }
+  .row-content {
+    padding: 0 220px;
+  }
+
+  .the-team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1600px) {
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1800px) {
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 400;
+    letter-spacing: -1.4px;
+  }
+
+  .caption {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .container-content {
+    margin-top: -120px;
+  }
+  .team-section-titles {
+    width: 240px;
+  }
+}

@@ -16,6 +16,11 @@
           </a>
         </div>
         <div class="overlay"></div>
+        <g-image
+          class="home-banner banner"
+          blur="40"
+          src="~/assets/imgs/hero-banner.jpg"
+        ></g-image>
       </div>
     </div>
     <div class="row row-content">
@@ -58,7 +63,11 @@
             Join us as we promote positive social change across Africa and Asia
           </h2>
           <div class="text-row">
-             <a href="javascript:void( window.open( 'https://form.jotform.com/202654195519056', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> Subscribe With Us </a>
+            <a
+              href="javascript:void( window.open( 'https://form.jotform.com/202654195519056', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "
+            >
+              Subscribe With Us
+            </a>
           </div>
         </div>
       </div>
